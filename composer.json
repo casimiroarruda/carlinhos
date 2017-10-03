@@ -1,0 +1,17 @@
+{
+  "name": "carlinhos/tutorial",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^7",
+    "respect/rest": "0.6.*"
+  },
+  "require-dev": {
+    "pds/skeleton": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Carlinhos\\Tutorial\\": "src/Carlinhos/Tutorial"
+    }
+  }
+}
