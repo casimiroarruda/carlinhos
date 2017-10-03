@@ -18,7 +18,9 @@ class PessoaManager
         return [
             'Carlinhos' => new Pessoa('Carlinhos', 17, Pessoa::GENDER_MALE),
             'Duodraco' => new Pessoa('Anderson', 36, Pessoa::GENDER_MALE),
-            'Aris' => new Pessoa('Ariana', 22, Pessoa::GENDER_FEMALE)
+            'Aris' => new Pessoa('Ariana', 22, Pessoa::GENDER_FEMALE),
+            'Thamara' => new Pessoa('Thamara', 33, Pessoa::GENDER_FEMALE),
+            'Pokemao' => new Pessoa('Wandinho', 34, Pessoa::GENDER_MALE)
         ];
     }
 
